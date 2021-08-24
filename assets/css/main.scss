@@ -32,3 +32,10 @@ section strong {
   color: $color-orange;
   font-weight: 700;
 }
+
+@media screen and (max-width: 1280px) {
+  section {
+    margin-left: 1em;
+    margin-right: 1em;
+  }  
+}
