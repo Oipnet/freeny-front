@@ -1,0 +1,45 @@
+.jumbo {
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+.jumbo .jumbo__title {
+  color: $color-orange;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-bottom: 0.6em;
+}
+
+.jumbo .jumbo__subtitle {
+  color: $color-black;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.jumbo .jumbo__subtitle {
+  color: $color-black;
+}
+
+.jumbo .jumbo__cta {
+  margin-top: 1em;
+  color: $color-black;
+}
+
+.jumbo .jumbo__cta a {
+  text-decoration: none;
+  color: $color-black;
+  border: 1px solid $color-orange;
+  border-radius: 15px;
+  padding: 0.4em;
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}
+
+.jumbo .jumbo__cta a:hover {
+  color: $color-white;
+  background-color: $color-orange;
+}

@@ -7,22 +7,28 @@
   font-size: $font-size;
 }
 
-.container_comming-soon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+@import '_jumbo';
+
+section {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.container_comming-soon h1 {
-  font-size: 1.5em;
-  font-weight: 700;
-  margin-bottom: 1em;
+section h1 {
   color: $color-orange;
+  margin-bottom: 1.4em;
+  font-size: 1.5em;
 }
 
-.container_comming-soon p {
-  font-size: 1.2em;
+section p {
   color: $color-black;
+  line-height: 1.2em;
+}
+
+section strong {
+  color: $color-orange;
+  font-weight: 700;
 }
