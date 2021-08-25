@@ -7,35 +7,4 @@
   font-size: $font-size;
 }
 
-@import '_jumbo';
-
-section {
-  margin-top: 2em;
-  margin-bottom: 1.5em;
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section h1 {
-  color: $color-orange;
-  margin-bottom: 1.4em;
-  font-size: 1.5em;
-}
-
-section p {
-  color: $color-black;
-  line-height: 1.2em;
-}
-
-section strong {
-  color: $color-orange;
-  font-weight: 700;
-}
-
-@media screen and (max-width: 1280px) {
-  section {
-    margin-left: 1em;
-    margin-right: 1em;
-  }  
-}
+@import "_landing"
