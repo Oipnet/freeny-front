@@ -3,10 +3,8 @@
     <div>
       Le descriptif
     </div>
-    <Header />
-    <div style="text-align:right">
-      TODO : Le menu
-    </div>
+    <LandingHeader />
+    <LandingMenu />
   </div>
 </template>
 
