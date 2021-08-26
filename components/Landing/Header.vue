@@ -50,4 +50,24 @@
   .content {
     transform: translateY(-50px);
   }
+
+  @media screen and (max-width: 1024px) {
+    header {
+      grid-row: 1;
+      border: none;
+      width: 100vw;
+      height: 15em;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 180px;
+      width: 180px;
+    }
+
+    .content {
+      transform: translateY(0px);
+    }
+  }
 </style>

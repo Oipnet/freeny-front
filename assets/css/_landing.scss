@@ -6,3 +6,9 @@
   height: 100vh;
   margin-right: 1em;
 }
+
+@media screen and (max-width: 1024px) {
+  .container_landing {
+    grid-template-columns: 1fr;
+  }
+}
