@@ -55,6 +55,7 @@ header div a {
 header div a span{
   text-decoration: underline;
 }
+
 .profile{
   border-radius: 50%;
   width: 40px;
