@@ -1,9 +1,18 @@
 <template>
-  <div>
+  <header>
     <LandingHead />
+<div class="content">
     <LandingSearch/>
-  </div>
+    <LandingHomepageContent/>
+</div>
+  </header>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts">
 </script>
+<style lang="scss" scoped>
+.content{
+  width: 100%;
+  display: flex;
+}
+</style>

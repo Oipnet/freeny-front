@@ -53,6 +53,7 @@ div{
 aside{
   width: 16%;
   display: flex;
+  height: 86vh;
   flex-direction: column;
   align-items: center;
   border-right: 1px solid $color-yellow;
