@@ -3,7 +3,7 @@
     <LandingHead />
     <div class="content">
       <LandingSearch/>
-      <LandingHomepageContent/>
+      <LandingProfileContent/>
     </div>
   </header>
 </template>

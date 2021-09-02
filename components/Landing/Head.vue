@@ -43,7 +43,7 @@ img{
 }
 header div{
   display: flex;
-  justify-content: end;
+  justify-content: right;
 }
 header div a {
   display: flex;
